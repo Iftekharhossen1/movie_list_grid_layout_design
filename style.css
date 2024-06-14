@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #04abf2;
+    height: 200px;
+}
+
+
+.header-title{
+    margin-left: 650px;
+    padding-top: 100px;
+    color: white;
+    font-size: 200;    
+}
+
+.item{
+    border: 2px solid black;
+    width: 1400px;
+    height: auto;
+    background-color: black;
+    margin-left: 130px;
+    margin-top: 20px;
+    border-radius: 9px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+.item1{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 11px;
+}
+
+
+p{
+    color: white;
+}
+
+p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+.item-list{
+    margin: 10px 20px 0px 30px;
+}
